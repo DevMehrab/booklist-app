@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <title>Booklist app</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="hero">
+    <div class="text">
+      <h3>Welcome to my first JavaScript project</h3>
+      <button><a href="#start">Get started</a></button>
+    </div>
+    <img src="list.jpg" alt="">
+  </div>
+  <div class="body">
+	  <h1 id="start"><i class="fas fa-book-open"></i>Simple Booklist App</h1>
+	  <form>
+	    <div class="input">
+	      <p> BOOK NAME</p>
+	      <input type="text" id="name" placeholder="bookname" />
+	    </div>
+	    <div class="input">
+	      <p> AUTHOR</p>
+	      <input type="text" id="author" placeholder="author" />
+	    </div>
+	    <div class="input">
+	      <p> PRICE</p>
+	      <input type="number" id="price" placeholder="0 $" />
+	    </div>
+	    <input type="submit" class="btn"/>
+	  </form>
+	  
+	  <div id="save">
+	    <div class="header">
+	      <p>Name</p>
+	      <p>Author</p>
+	      <p>Price</p>
+	    </div>
+	    <div class="list">
+	      
+	    </div>
+	  </div>
+  </div>
+ <!-- <table border="0">
+    <thead>
+      <th>
+        <tr>Name</tr>
+        <tr>Author</tr>
+        <tr>Price</tr>
+      </th>
+      <tbody>
+        
+      </tbody>
+    </thead>
+  </table>-->
+    <script src="main.js"></script>
+</body>
+</html>
